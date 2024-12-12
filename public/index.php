@@ -2,7 +2,8 @@
 
 declare(strict_types=1);
 
-use Yiisoft\Yii\Runner\Http\HttpApplicationRunner;
+use Yiisoft\Yii\Runner\RoadRunner\RoadRunnerApplicationRunner;
+use Yiisoft\Yii\Runner\RoadRunner\RoadRunnerHttpApplicationRunner;
 
 if (getenv('YII_C3')) {
     $c3 = dirname(__DIR__) . '/c3.php';
@@ -30,10 +31,12 @@ if (PHP_SAPI === 'cli-server') {
 require_once dirname(__DIR__) . '/autoload.php';
 
 // Run HTTP application runner
-$runner = new HttpApplicationRunner(
+$runner = (new RoadRunnerHttpApplicationRunner(
     rootPath: dirname(__DIR__),
     debug: $_ENV['YII_DEBUG'],
     checkEvents: $_ENV['YII_DEBUG'],
     environment: $_ENV['YII_ENV'],
-);
+))
+    ->withEnabledTemporal(true);
+
 $runner->run();

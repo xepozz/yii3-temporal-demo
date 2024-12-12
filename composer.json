@@ -53,12 +53,15 @@
         "psr/container": "^2.0",
         "psr/http-message": "^1.1|^2.0",
         "psr/http-server-handler": "^1.0",
+        "spiral/roadrunner": "^2024.3",
         "symfony/console": "^6.0",
         "vlucas/phpdotenv": "^5.3",
+        "xepozz/yii3-temporal-bridge": "dev-master",
         "yiisoft/aliases": "^3.0",
         "yiisoft/assets": "^4.0",
         "yiisoft/cache": "^3.0",
         "yiisoft/cache-file": "^3.0",
+        "yiisoft/classifier": "dev-master",
         "yiisoft/config": "^1.1",
         "yiisoft/csrf": "^2.0",
         "yiisoft/data-response": "^2.0",
@@ -84,6 +87,7 @@
         "yiisoft/yii-middleware": "^1.0",
         "yiisoft/yii-runner-console": "^2.0",
         "yiisoft/yii-runner-http": "^2.0",
+        "yiisoft/yii-runner-roadrunner": "dev-support-temporal",
         "yiisoft/yii-view-renderer": "^7.1"
     },
     "require-dev": {

@@ -49,4 +49,10 @@ return [
             Reference::to(TranslatorViewInjection::class),
         ],
     ],
+
+    'yiisoft/yii-runner-roadrunner' => [
+        'temporal' => [
+            'enabled' => true,
+        ],
+    ],
 ];

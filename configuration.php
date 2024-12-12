@@ -36,6 +36,7 @@ return [
         'bootstrap' => [],
         'bootstrap-web' => '$bootstrap',
         'bootstrap-console' => '$bootstrap',
+        'di-tags-web' => 'common/tags.php',
     ],
     'config-plugin-environments' => [
         'dev' => [

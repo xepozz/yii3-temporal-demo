@@ -15,4 +15,8 @@ final class AppAsset extends AssetBundle
     public array $css = [
         'site.css',
     ];
+
+    public array $js = [
+        'https://cdn.tailwindcss.com',
+    ];
 }

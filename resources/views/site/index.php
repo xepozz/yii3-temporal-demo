@@ -16,13 +16,7 @@ $this->setTitle($applicationParameters->getName());
 ?>
 
 <div class="text-center">
-    <h1><?= $translator->translate('site.hello')?>!</h1>
-
-    <p><?= $translator->translate('site.start_with')?>!</p>
-
-    <p>
-        <a href="https://github.com/yiisoft/docs/tree/master/guide/en" target="_blank" rel="noopener">
-            <i><?= $translator->translate('site.guide_remind')?>.</i>
-        </a>
-    </p>
+    <a href="/temporal" class="hover:blue-700 text-white font-bold py-2 px-4 rounded">
+        Check out Temporal in action
+    </a>
 </div>

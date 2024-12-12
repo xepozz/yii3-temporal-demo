@@ -11,7 +11,6 @@ return [
     'middlewares' => [
         ErrorCatcher::class,
         SessionMiddleware::class,
-        Locale::class,
         Router::class,
     ],
 
