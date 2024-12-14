@@ -34,9 +34,16 @@ composer install
 ./vendor/bin/rr get
 ```
 
+Run Temporal in Docker:
+
+```shell
+docker-compose up -d
+```
+
 To run the app:
 
 ```shell
+docker-composer up -d
 ./rr serve
 ```
 
