@@ -5,12 +5,17 @@ declare(strict_types=1);
 use App\ViewInjection\CommonViewInjection;
 use App\ViewInjection\LayoutViewInjection;
 use App\ViewInjection\TranslatorViewInjection;
+use Temporal\Activity\ActivityInterface;
+use Temporal\Workflow\WorkflowInterface;
 use Yiisoft\Assets\AssetManager;
+use Yiisoft\Classifier\Classifier;
 use Yiisoft\Definitions\Reference;
 use Yiisoft\Router\CurrentRoute;
 use Yiisoft\Router\UrlGeneratorInterface;
 use Yiisoft\Translator\TranslatorInterface;
 use Yiisoft\Yii\View\Renderer\CsrfViewInjection;
+
+$classifier = new Classifier(dirname(__DIR__, 2) . '/src');
 
 return [
     'app' => [
@@ -53,6 +58,8 @@ return [
     'yiisoft/yii-runner-roadrunner' => [
         'temporal' => [
             'enabled' => true,
+            'workflows' => iterator_to_array($classifier->withAttribute(WorkflowInterface::class)->find()),
+            'activities' => iterator_to_array($classifier->withAttribute(ActivityInterface::class)->find()),
         ],
     ],
 ];
