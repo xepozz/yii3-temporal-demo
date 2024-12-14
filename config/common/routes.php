@@ -21,7 +21,7 @@ return [
     Group::create('/temporal')
         ->namePrefix("temporal/")
         ->routes(
-            Route::get('/')
+            Route::get('[/]')
                 ->action([TemporalController::class, 'indexAction'])
                 ->name('index'),
 
