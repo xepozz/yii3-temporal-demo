@@ -4,13 +4,15 @@ version: "3"
 
 server:
   command: "php -dxdebug.mode=debug public/index.php"
-  # command: "php public/index.php"
+  env:
+    - XDEBUG_SESSION: 1
 
 http:
   address: 0.0.0.0:8080
   middleware: [ "static", "gzip" ]
   pool:
     num_workers: 2
+    debug: true
   uploads:
     forbid: [ ".php", ".exe", ".bat" ]
   static:
