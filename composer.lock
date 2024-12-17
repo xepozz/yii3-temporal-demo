@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7f8613749552b211c4bcf744b53d3aae",
+    "content-hash": "2010555a0533d36be7383b40a343c5ab",
     "packages": [
         {
             "name": "alexkart/curl-builder",
@@ -4691,16 +4691,16 @@
         },
         {
             "name": "temporal/sdk",
-            "version": "v2.11.3",
+            "version": "v2.11.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/temporalio/sdk-php.git",
-                "reference": "5c86db56c340a674896e6050030d8e44c6cacadf"
+                "reference": "ef3f586ef8f04e8397e7c8df5150ae038633271b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/temporalio/sdk-php/zipball/5c86db56c340a674896e6050030d8e44c6cacadf",
-                "reference": "5c86db56c340a674896e6050030d8e44c6cacadf",
+                "url": "https://api.github.com/repos/temporalio/sdk-php/zipball/ef3f586ef8f04e8397e7c8df5150ae038633271b",
+                "reference": "ef3f586ef8f04e8397e7c8df5150ae038633271b",
                 "shasum": ""
             },
             "require": {
@@ -4779,7 +4779,7 @@
                 "issues": "https://github.com/temporalio/sdk-php/issues",
                 "source": "https://github.com/temporalio/sdk-php"
             },
-            "time": "2024-12-09T14:54:02+00:00"
+            "time": "2024-12-17T19:12:48+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -16784,13 +16784,13 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "roave/security-advisories": 20,
         "yiisoft/classifier": 20,
         "yiisoft/yii-debug": 20,
+        "yiisoft/yii-runner-roadrunner": 20,
+        "roave/security-advisories": 20,
         "yiisoft/yii-debug-api": 20,
         "yiisoft/yii-debug-viewer": 20,
         "yiisoft/yii-gii": 20,
-        "yiisoft/yii-runner-roadrunner": 20,
         "yiisoft/yii-testing": 20
     },
     "prefer-stable": true,
@@ -16799,6 +16799,6 @@
         "php": "^8.1",
         "ext-intl": "*"
     },
-    "platform-dev": {},
+    "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }
