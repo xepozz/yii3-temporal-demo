@@ -387,16 +387,16 @@
         },
         {
             "name": "google/protobuf",
-            "version": "v4.29.1",
+            "version": "v4.29.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/protocolbuffers/protobuf-php.git",
-                "reference": "6042b5483f8029e42473faeb8ef75ba266278381"
+                "reference": "79aa5014efeeec3d137df5cdb0ae2fc163953945"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/protocolbuffers/protobuf-php/zipball/6042b5483f8029e42473faeb8ef75ba266278381",
-                "reference": "6042b5483f8029e42473faeb8ef75ba266278381",
+                "url": "https://api.github.com/repos/protocolbuffers/protobuf-php/zipball/79aa5014efeeec3d137df5cdb0ae2fc163953945",
+                "reference": "79aa5014efeeec3d137df5cdb0ae2fc163953945",
                 "shasum": ""
             },
             "require": {
@@ -425,9 +425,9 @@
                 "proto"
             ],
             "support": {
-                "source": "https://github.com/protocolbuffers/protobuf-php/tree/v4.29.1"
+                "source": "https://github.com/protocolbuffers/protobuf-php/tree/v4.29.2"
             },
-            "time": "2024-12-03T22:07:45+00:00"
+            "time": "2024-12-18T14:11:12+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -799,10 +799,6 @@
             ],
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-master": "3.x-dev",
-                    "dev-2.x": "2.x-dev"
-                },
                 "laravel": {
                     "providers": [
                         "Carbon\\Laravel\\ServiceProvider"
@@ -812,6 +808,10 @@
                     "includes": [
                         "extension.neon"
                     ]
+                },
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev",
+                    "dev-master": "3.x-dev"
                 }
             },
             "autoload": {
@@ -2446,16 +2446,16 @@
         },
         {
             "name": "spiral/roadrunner",
-            "version": "v2024.3.0",
+            "version": "v2024.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roadrunner-server/roadrunner.git",
-                "reference": "9335c69e9e302e0063cff2b9739f140c9474864e"
+                "reference": "762d627ae06ffc7dd46fbbf3de8b13d7672a5cb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roadrunner-server/roadrunner/zipball/9335c69e9e302e0063cff2b9739f140c9474864e",
-                "reference": "9335c69e9e302e0063cff2b9739f140c9474864e",
+                "url": "https://api.github.com/repos/roadrunner-server/roadrunner/zipball/762d627ae06ffc7dd46fbbf3de8b13d7672a5cb3",
+                "reference": "762d627ae06ffc7dd46fbbf3de8b13d7672a5cb3",
                 "shasum": ""
             },
             "type": "metapackage",
@@ -2484,7 +2484,7 @@
                 "docs": "https://roadrunner.dev/docs",
                 "forum": "https://forum.roadrunner.dev/",
                 "issues": "https://github.com/roadrunner-server/roadrunner/issues",
-                "source": "https://github.com/roadrunner-server/roadrunner/tree/v2024.3.0"
+                "source": "https://github.com/roadrunner-server/roadrunner/tree/v2024.3.1"
             },
             "funding": [
                 {
@@ -2492,7 +2492,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-12-05T18:15:06+00:00"
+            "time": "2024-12-20T02:12:40+00:00"
         },
         {
             "name": "spiral/roadrunner-cli",
@@ -4691,16 +4691,16 @@
         },
         {
             "name": "temporal/sdk",
-            "version": "v2.11.3",
+            "version": "v2.11.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/temporalio/sdk-php.git",
-                "reference": "5c86db56c340a674896e6050030d8e44c6cacadf"
+                "reference": "ef3f586ef8f04e8397e7c8df5150ae038633271b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/temporalio/sdk-php/zipball/5c86db56c340a674896e6050030d8e44c6cacadf",
-                "reference": "5c86db56c340a674896e6050030d8e44c6cacadf",
+                "url": "https://api.github.com/repos/temporalio/sdk-php/zipball/ef3f586ef8f04e8397e7c8df5150ae038633271b",
+                "reference": "ef3f586ef8f04e8397e7c8df5150ae038633271b",
                 "shasum": ""
             },
             "require": {
@@ -4779,7 +4779,7 @@
                 "issues": "https://github.com/temporalio/sdk-php/issues",
                 "source": "https://github.com/temporalio/sdk-php"
             },
-            "time": "2024-12-09T14:54:02+00:00"
+            "time": "2024-12-17T19:12:48+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
