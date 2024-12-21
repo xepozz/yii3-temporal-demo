@@ -37,6 +37,6 @@ $runner = (new RoadRunnerHttpApplicationRunner(
     checkEvents: $_ENV['YII_DEBUG'],
     environment: $_ENV['YII_ENV'],
 ))
-    ->withEnabledTemporal(true);
+    ->withTemporalEnabled(true);
 
 $runner->run();
